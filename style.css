@@ -192,6 +192,9 @@ a:hover { text-decoration: underline; }
   font-size: 1.05rem;
   color: var(--text);
   margin-bottom: 18px;
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
 }
 .bio-section p:last-child { margin-bottom: 0; }
 
