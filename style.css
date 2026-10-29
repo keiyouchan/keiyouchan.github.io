@@ -1,3 +1,5 @@
+@import url('https://cdn.jsdelivr.net/gh/aaaakshat/cm-web-fonts@latest/fonts.css');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 :root {
   --accent:       #c0392b;
   --accent-hover: #96281b;
@@ -13,7 +15,7 @@
 html { scroll-behavior: smooth; }
 
 body {
-  font-family: Optima, "Segoe UI", Arial, sans-serif;
+  font-family:  Optima, "Segoe UI", Arial, sans-serif;
   font-size: 16px;
   color: var(--text);
   background: var(--bg);
@@ -34,7 +36,7 @@ a:hover { text-decoration: underline; }
 }
 
 .topnav-inner {
-  max-width: 960px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0 36px;
   height: 100%;
@@ -72,7 +74,7 @@ a:hover { text-decoration: underline; }
 
 /* ── Page Wrapper ── */
 .page-content {
-  max-width: 960px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 56px 36px 100px;
 }
@@ -83,7 +85,7 @@ a:hover { text-decoration: underline; }
 .home-grid {
   display: grid;
   grid-template-columns: 260px 1fr;
-  gap: 56px;
+  gap: 50px;
   align-items: start;
 }
 
@@ -93,12 +95,12 @@ a:hover { text-decoration: underline; }
 }
 
 .profile-photo-wrap {
-  width: 160px;
-  height: 160px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   overflow: hidden;
   margin: 0 auto 18px;
-  border: 2px solid var(--border);
+  border: 0px solid var(--border);
   background: #f3f4f6;
   display: flex;
   align-items: center;
@@ -113,7 +115,7 @@ a:hover { text-decoration: underline; }
 
 /* Initials placeholder shown when no photo */
 .photo-initials {
-  font-family: Optima, "Segoe UI", Arial, sans-serif;
+  font-family: "EB Garamond", Optima, "Segoe UI", Arial, sans-serif;
   font-size: 2.4rem;
   font-weight: 700;
   color: var(--accent);
@@ -122,7 +124,7 @@ a:hover { text-decoration: underline; }
 }
 
 .profile-name {
-  font-family: Optima, "Segoe UI", Arial, sans-serif;
+  font-family: "EB Garamond",Optima, "Segoe UI", Arial, sans-serif;
   font-size: 1.15rem;
   font-weight: 700;
   margin-bottom: 4px;
@@ -130,7 +132,7 @@ a:hover { text-decoration: underline; }
 }
 
 .profile-title {
-  font-family: Optima, "Segoe UI", Arial, sans-serif;
+  font-family: "EB Garamond", Optima, "Segoe UI", Arial, sans-serif;
   font-size: 0.82rem;
   color: var(--muted);
   line-height: 1.5;
@@ -178,22 +180,23 @@ a:hover { text-decoration: underline; }
 
 /* Bio section (right) */
 .bio-section h2 {
-  font-family: Optima, "Segoe UI", Arial, sans-serif;
-  font-size: 0.75rem;
-  letter-spacing: 2.5px;
-  text-transform: uppercase;
-  color: var(--muted);
-  font-weight: 600;
+  font-family: "Computer Modern Serif", "Segoe UI", Arial, sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+  color: var(#000000);
+  font-weight: 700;
   margin-bottom: 18px;
   padding-bottom: 10px;
   border-bottom: 1px solid var(--border);
 }
 
 .bio-section p {
+  font-family: "Computer Modern Serif", Optima, "Segoe UI", Arial, sans-serif;
   font-size: 1.05rem;
   color: var(--text);
   margin-bottom: 18px;
-  text-align: justify;
+  text-align: left;
   hyphens: auto;
   -webkit-hyphens: auto;
 }
@@ -225,15 +228,15 @@ a:hover { text-decoration: underline; }
    RESEARCH & CV SHARED
 ══════════════════════════════ */
 .section-heading {
-  font-family: Optima, "Segoe UI", Arial, sans-serif;
-  font-size: 0.75rem;
-  letter-spacing: 2.5px;
-  text-transform: uppercase;
-  color: var(--muted);
-  font-weight: 600;
-  margin: 48px 0 20px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid var(--border);
+  font-family: "EB Garamond" , Optima, "Segoe UI", Arial, sans-serif;
+  font-size: 1.25rem;
+  letter-spacing: 0.3px;
+  text-transform: capitalize;
+  color: var(#000000);
+  font-weight: 500;
+  margin: 4px 0 20px;
+  padding-bottom: 1px;
+  border-bottom: 0px solid var(--border);
 }
 
 .section-heading:first-child { margin-top: 0; }
@@ -277,7 +280,7 @@ a:hover { text-decoration: underline; }
 .badge-review { background: #fef3cd; color: #92650a; border: 1px solid #f6c860; }
 .badge-rr     { background: #dbeafe; color: #1d4ed8; border: 1px solid #93c5fd; }
 .badge-wp     { background: #f3f4f6; color: #374151; border: 1px solid #d1d5db; }
-.badge-accepted { background: #dcfce7; color: #166534; border: 1px solid #86efac; }
+.badge-accepted { background: #dcfce7; color: #166534; border: 0px solid #86efac; }
 .badge-resubmit { background: #fef3cd; color: #92650a; border: 1px solid #f6c860; }
 
 /* ── CV Items ── */
@@ -304,7 +307,7 @@ a:hover { text-decoration: underline; }
 }
 
 .cv-year {
-  font-family: Optima, "Segoe UI", Arial, sans-serif;
+  font-family: "EB Garamond", Optima, "Segoe UI", Arial, sans-serif;
   font-size: 0.82rem;
   color: var(--muted);
   white-space: nowrap;
