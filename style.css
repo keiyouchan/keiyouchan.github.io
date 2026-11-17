@@ -46,7 +46,7 @@ a:hover { text-decoration: underline; }
 }
 
 .site-title {
-  font-family: Optima, "Segoe UI", Arial, sans-serif;
+  font-family: "EB Garamond", "Segoe UI", Arial, sans-serif;
   font-size: 1.05rem;
   font-weight: 700;
   color: var(--text);
@@ -61,7 +61,7 @@ a:hover { text-decoration: underline; }
 }
 
 .nav-links a {
-  font-family: Optima, "Segoe UI", Arial, sans-serif;
+  font-family: "EB Garamond", "Segoe UI", Arial, sans-serif;
   font-size: 0.78rem;
   letter-spacing: 1.8px;
   text-transform: uppercase;
@@ -250,14 +250,16 @@ a:hover { text-decoration: underline; }
 .paper:last-child { border-bottom: none; padding-bottom: 0; }
 
 .paper-title {
+  font-family: "EB Garamond", Optima, "Segoe UI", Arial, sans-serif;
   font-size: 1.05rem;
-  font-weight: 700;
+  font-weight: 500;
   color: var(--text);
   line-height: 1.5;
   margin-bottom: 6px;
 }
 
 .paper-meta {
+  font-family: "EB Garamond", Optima, "Segoe UI", Arial, sans-serif;
   font-size: 0.9rem;
   color: var(--muted);
   line-height: 1.6;
@@ -267,7 +269,7 @@ a:hover { text-decoration: underline; }
 
 .badge {
   display: inline-block;
-  font-family: Optima, "Segoe UI", Arial, sans-serif;
+  font-family: "EB Garamond", Optima, "Segoe UI", Arial, sans-serif;
   font-size: 0.65rem;
   padding: 2px 8px;
   border-radius: 3px;
